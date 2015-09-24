@@ -1,0 +1,1 @@
+<iframe src="galery/frame.html" height="579" width="781" frameborder="0" name="galeryFrame"> </iframe>

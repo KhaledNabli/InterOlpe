@@ -1,0 +1,94 @@
+<switches>
+	<indexName>imgindex.xml</indexName> 
+	<albumsPath>albums/</albumsPath>
+	<thumbnailPath>thumbnails/</thumbnailPath> 
+	<hiResPath>hires/</hiResPath> 
+	
+	<sizeToStage>1</sizeToStage>  <!-- only change if you're embedding photofolio inside another flash movie -->
+	<stageWidth>750</stageWidth>
+	<stageHeight>550</stageHeight>
+	<navPosition>left</navPosition>  <!-- left/right - NOT WORKING AT THE MOMENT -->
+	<buttonbarPosition>bottom</buttonbarPosition>  <!-- top/bottom   -->
+	<navScroll>fluid</navScroll> <!-- fluid/dot -->
+	<navMargin>4</navMargin>
+	
+	<slideshowDelay>5000</slideshowDelay>   <!-- in milliseconds-->
+	<autoSlideshow>0</autoSlideshow>
+	<scrollSpeed>.1</scrollSpeed>  <!-- scroll coefficient - higher is faster but I suggest somewhere between .1 and .3-->
+	<transitionType>horizontalSlide</transitionType><!-- horizontalSlide, verticalSlide, swapBottom, swapLeft, crossfade -->
+	<transitionSpeed>2</transitionSpeed> 
+	
+	<loadSounds>1</loadSounds>
+	<bgLoop></bgLoop> <!-- designate an mp3 file to load as a background loop   eg.  bgloop.mp3 -->
+	
+	<borderSize>3</borderSize>  <!-- in pixels-->
+	<borderColor>0xFFFFFF</borderColor>  <!-- be sure to keep 0xRRGGBB form-->
+
+	<navBgColor>0x830000</navBgColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<navBgAlpha>100</navBgAlpha>  <!-- be sure to keep 0xRRGGBB form-->
+	<navBackgroundRadius>0</navBackgroundRadius>
+	<navBgVisible>0</navBgVisible> <!-- boolean - show/hide nav background color-->
+	<currentAlbumAlpha>10</currentAlbumAlpha>
+	<showNav>1</showNav>
+	
+	<thumbnailSize>50</thumbnailSize>
+	<thumbnailSizeSmall>45</thumbnailSizeSmall>
+	<thumbnailTint>40</thumbnailTint>
+	<thumbnailsPerRow>3</thumbnailsPerRow>
+	<thumbnailBorderSize>.</thumbnailBorderSize>  <!-- in pixels-->
+	<thumbnailBorderColor>0xcccccc</thumbnailBorderColor>  <!-- be sure to keep 0xRRGGBB form-->
+	
+	<albumTextColor>0xFFFFFF</albumTextColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<albumTextSize>12</albumTextSize> 
+	<showSingleAlbumTitle>0</showSingleAlbumTitle>
+	<rolloverColor>0xC7D0F8</rolloverColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<albumRolloverGradientAlpha>20</albumRolloverGradientAlpha>
+	<imageTextColor>0x666666</imageTextColor>  <!-- be sure to keep 0xRRGGBB form-->
+	
+	<sepLineColor>0x999999</sepLineColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<showLoader>1</showLoader>   <!-- boolean-->
+	<albumCaps>1</albumCaps>   <!-- boolean-->
+	<useEmbededFont>1</useEmbededFont>  <!--  be careful, this font needs to be installed on the users system-->	
+	<baseFont>Universal</baseFont>  <!--  be careful, this font needs to be installed on the users system-->	
+	
+	<photoBgColor>0x450000</photoBgColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<photoBgAlpha>0</photoBgAlpha>  <!-- be sure to keep 0xRRGGBB form-->
+	<photoBackgroundRadius>10</photoBackgroundRadius>
+	<photoBgVisible>0</photoBgVisible><!-- boolean - show/hide main background color-->
+	
+	<resizeImage>1</resizeImage>
+	<shadowDepth>3</shadowDepth>
+	<shadowBlur>5</shadowBlur>
+	<imageShadow>1</imageShadow>
+	<showFilename>0</showFilename>
+	<showDescription>0</showDescription>
+	<showButtonbar>1</showButtonbar>
+	<slideShowIcon>1</slideShowIcon>
+	<buttonbarAlpha>50</buttonbarAlpha>
+	<buttonColor>0x666666</buttonColor>
+	
+	<descriptionTextColor>0xAAAAAA</descriptionTextColor>  <!-- be sure to keep 0xRRGGBB form-->
+	<descriptionTextSize>10</descriptionTextSize>  
+			
+	<preloadCount>0</preloadCount> <!--  0=none   1=normal size   2=hires  3=launch script -  NOT IMPLEMENTED YET-->		
+	<allowDownload>0</allowDownload> <!--  0=none   1=normal size   2=hires  3=launch script-->
+	<launchScript>myscript.php</launchScript> <!-- the url to attach the image name to if allowDownload is set to 3 -->
+	<launchTarget>_blank</launchTarget> <!-- the 'target' frame for the launch script -->
+
+	<setTabColor>0x888888</setTabColor>
+	<setTabAlpha>50</setTabAlpha>
+	<setTextColor>0x000000</setTextColor>
+	<setTabColorOn>0x888888</setTabColorOn>
+	<setTabAlphaOn>100</setTabAlphaOn>
+	<setTextColorOn>0xFFFFFF</setTextColorOn>
+	<setEdgeColor>0x000000</setEdgeColor>
+	<setEdgeAlpha>50</setEdgeAlpha>
+	
+	<!-- <initialSet>0</initialSet>   sets which album opens on load.  Set to 0 for no initial album load-->
+	<initialAlbum>1</initialAlbum>  <!--  sets which album opens on load.  Set to 0 for no initial album load-->
+	<initialImage>1</initialImage>  <!--  sets which album opens on load.  Set to 0 for no initial album load-->
+	<openInitialAlbum>1</openInitialAlbum>
+</switches>
+
+
+

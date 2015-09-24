@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-image: url(images/background.jpg);
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+}
+body, td, th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	vertical-align:top;
+	color:#FFF;
+	background-repeat:no-repeat;
+}
+.headInputElement {
+	background-color:#7B040D;
+	border-color:#900;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#FFF;
+}
+.bodyInputElement {
+	background-color:#600;
+	border-color:#450000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+.copyrightInfo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color:#000;
+}
+.headTextBlocks {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color:#FFF;
+	vertical-align:middle;
+}
+.mainSection {
+	background:url(images/main_section_long.png);
+	height:583px;
+}
+.footerBar {
+	vertical-align:bottom;
+	background-repeat:no-repeat;
+	background:url(images/layout_redisigned_10.png);
+	font-family: Verdana, Geneva, sans-serif;
+	height:21px;
+	font-size: 10px;
+	color:#353535;
+	text-align:right;
+}
+
+.footerCopyright {
+	vertical-align:bottom;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color:#353535;
+	text-align:right;
+	text-decoration:none;
+}
+
+.footerCopyright:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color:#1F1F1F;
+	text-decoration:none;
+}
+
+.layoutTable {
+	height:850px;
+	width:1040px;
+	border:0px;
+}
